@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- comentario -->
+
+<head>
+    <title>dia 1</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="meus estudos de html">
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <p>cabeçalho</p>
+    </header>
+    <main>
+        <h1>dia 1</h1>
+        <p>paragrafo</p>
+        <div>
+            <h2 id="lista-nao-ordenada">lista não ordenada</h2>
+            <ul>
+                <li>Brasil</li>
+                <li>Argentina</li>
+            </ul>
+
+            <h2>lista ordenada</h2>
+            <ol>
+                <li>palmeiras</li>
+                <li>corintians</li>
+            </ol>
+            <h2>lista de definições</h2>
+            <dl>
+                <dt>TV</dt>
+                <dd>32 polegadas, smart</dd>
+            </dl>
+        </div>
+        <div>
+            <h2>textos</h2>
+            <p><b>algum texto</b> aleatorio não sei só to escrevendo</p>
+            <p><i>aleatorio não sei</i> algum texto só to escrevendo</p>
+            <p>algum texto aleatorio <del>não</del> sei só to escrevendo</p>
+        </div>
+        <div>
+            <h2>links</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://www.google.com">google</a></li>
+                    <li><a href="#top">voltar ao inicio</a></li>
+                    <li><a href="#lista-nao-ordenada">ver lista não ordenada</a></li>
+                    <li><a href="https://www.google.com" target="_blank" rel="noopeneer noreferrer external">google</a>
+                    </li>
+                    <li><a href="mailto:erikgarciavieira@gmail.com">me envie um email</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h2>imagens</h2>
+            <img src="map.jfif" alt="foto de um mapa" width="300">
+            <img src="https://s1.static.brasilescola.uol.com.br/be/2025/02/monte-everest.jpg" alt="montanha"
+                width="300">
+        </div>
+        <div>
+            <h2>tabelas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>produto</th>
+                        <th>preço</th>
+                        <th>disponivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>camisa</td>
+                        <td>49,90</td>
+                        <td>sim</td>
+                    </tr>
+                    <tr>
+                        <td>boné</td>
+                        <td>30,00</td>
+                        <td>não</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div>
+            <h2>formularios</h2>
+            <form method="post">
+                <label for="nome">Seu nome:</label> <br>
+                <input type="text" id="nome" name="nome" placeholder="digite seu nome" required><br>
+                <label for="email">Seu email:</label><br>
+                <input type="email" id="email" name="email" placeholder="digite seu email"><br>
+                <label for="senha">Sua senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="digite sua senha"><br>
+                <label for="sexo">Seu genero:</label><br>
+                <input type="radio" name="sexo" value="masculino"> Masculino<br>
+                <input type="radio" name="sexo" value="feminino"> feminino<br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="30" placeholder="digite sua mensagem"></textarea><br>
+                <label for="estado">Seu estado:</label>
+                <select id="estado" name="estado">
+                    <option value="">selecione</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select><br><input type="checkbox" name="aceito" value="sim" required>
+                aceito os termos<br>
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+        <div>
+            <h2>Videos</h2>
+            <video width="300" controls autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <h2>audios</h2>
+            <audio controls>
+                <source src="cars.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <h2>iframe</h2>
+            <iframe width="300" height="300" src="https://www.goomeebooks.com" title="goome ebooks"></iframe>
+        </div>
+        <h2>css</h2>
+        <div class="caixa">
+        <p>haha</p>
+    </div>
+    <div class="caixa">
+
+    </div>
+    <h2>flexbox</h2>
+    <div class="conteiner">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    </main>
+    <footer>
+        <p>rodapé</p>
+    </footer>
+    
+</body>
+
+</html>

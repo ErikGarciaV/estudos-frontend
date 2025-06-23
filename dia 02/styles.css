@@ -1,0 +1,53 @@
+/* comentario */
+#cabeçalho {
+    background-color:rgb(194, 194, 194);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: rgb(255, 0, 0);
+}
+.caixa {
+    position: relative;
+    top: 30px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(58, 58, 58);
+    box-sizing: border-box;
+    }
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #0077cc;
+    transition: 0.3s;
+}
+@media (max-width: 600px){
+    body{
+        background-color: green;
+}
+}
+.conteiner2 {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 20px;
+}

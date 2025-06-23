@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- comentario -->
+
+<head>
+    <title id="titulo">dia 2</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="meus estudos de html">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="logo">
+        <p>logo</p>
+        </div>
+        <nav class="menu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">sobre</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h1>dia 2</h1>
+        <p>paragrafo</p>
+        <div>
+            <h2 id="lista-nao-ordenada">lista não ordenada</h2>
+            <ul>
+                <li>Brasil</li>
+                <li>Argentina</li>
+            </ul>
+
+            <h2>lista ordenada</h2>
+            <ol>
+                <li>palmeiras</li>
+                <li>corintians</li>
+            </ol>
+            <h2>lista de definições</h2>
+            <dl>
+                <dt>TV</dt>
+                <dd>32 polegadas, smart</dd>
+            </dl>
+        </div>
+        <div>
+            <h2>textos</h2>
+            <p><b>algum texto</b> aleatorio não sei só to escrevendo</p>
+            <p><i>aleatorio não sei</i> algum texto só to escrevendo</p>
+            <p>algum texto aleatorio <del>não</del> sei só to escrevendo</p>
+        </div>
+        <div>
+            <h2>imagens</h2>
+            <img src="map.jfif" alt="foto de um mapa" width="300">
+            <img src="https://s1.static.brasilescola.uol.com.br/be/2025/02/monte-everest.jpg" alt="montanha"
+                width="300">
+        </div>
+        <div>
+            <h2>tabelas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>produto</th>
+                        <th>preço</th>
+                        <th>disponivel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>camisa</td>
+                        <td>49,90</td>
+                        <td>sim</td>
+                    </tr>
+                    <tr>
+                        <td>boné</td>
+                        <td>30,00</td>
+                        <td>não</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div>
+            <h2>formularios</h2>
+            <form method="post">
+                <label for="nome">Seu nome:</label> <br>
+                <input type="text" id="nome" name="nome" placeholder="digite seu nome" required><br>
+                <label for="seuemail">Seu email:</label><br>
+                <input type="email" id="seuemail" name="seuemail" placeholder="digite seu email"><br>
+                <label for="senha">Sua senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="digite sua senha"><br>
+                <label for="masc">Seu genero:</label><br>
+                <input type="radio" id="masc" name="sexo" value="masculino"> Masculino<br>
+                <input type="radio" id="fem" name="sexo" value="feminino"> feminino<br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="30" placeholder="digite sua mensagem"></textarea><br>
+                <label for="estado">Seu estado:</label>
+                <select id="estado" name="estado">
+                    <option value="">selecione</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select><br><input type="checkbox" name="aceito" value="sim" required>
+                aceito os termos<br>
+                <button class="btn">enviar</button>
+            </form>
+        </div>
+        <div>
+            <h2>Videos</h2>
+            <video width="300" controls autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <h2>audios</h2>
+            <audio controls>
+                <source src="cars.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <h2>iframe</h2>
+            <iframe width="300" height="300" src="#" title="goome ebooks"></iframe>
+        </div>
+        <h2>css</h2>
+        <div class="caixa">
+        <p>haha</p>
+    </div>
+    <div class="caixa">
+
+    </div>
+    <h2>flexbox</h2>
+    <div class="conteiner">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <h2>grid</h2>
+    <div class="conteiner2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <button id="button">aqui</button>
+    </main>
+    <footer>
+        <p>rodapé</p>
+    </footer>
+    
+</body>
+
+</html>

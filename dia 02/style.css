@@ -1,0 +1,36 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 15px;  
+}
+.cabeçalho p{
+    align-self: flex-start;
+}
+.cabeçalho nav {
+    align-self: flex-end;
+}
+#button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 20px;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1) skew(10deg) ;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
